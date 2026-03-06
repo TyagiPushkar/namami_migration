@@ -62,8 +62,9 @@ const blogData = {
   },
 };
 
-export default function BlogDetail({ params }) {
-  const blog = blogData[params.slug];
+export default async function BlogDetail({ params }) {
+  const { slug } = await params;
+  const blog = blogData[slug];
 
   if (!blog) {
     return <div className="p-20 text-center">Blog not found</div>;
