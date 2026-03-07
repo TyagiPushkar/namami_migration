@@ -163,13 +163,13 @@ export default function Services() {
                 </div>
               </div>
 
-              <a
+              {/* <a
                 href="#contact"
                 className="inline-flex items-center gap-2 bg-gray-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-gray-800 transition-all hover:shadow-lg group"
               >
                 Get Started
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
+              </a> */}
             </div>
 
             {/* Right Content - Image */}
