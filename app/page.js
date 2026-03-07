@@ -1,5 +1,6 @@
 'use client'
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 import { ArrowRight, Code, Smartphone, Globe, Shield, Users, Zap, CheckCircle } from 'lucide-react';
 
 export default function Home() {
@@ -83,7 +84,7 @@ export default function Home() {
         <div className="container mx-auto grid md:grid-cols-2 gap-16 px-6 items-center">
           
           <div className="relative group">
-            <div className="absolute -inset-4 bg-linear-to-r from-blue-600 to-purple-600 rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity"></div>
+            <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity"></div>
             <img
               src="/assets/images/team4.gif"
               alt="Team"
@@ -98,7 +99,7 @@ export default function Home() {
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
               We Take Your Idea to{' '}
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-700 to-pink-700">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-700">
                 Creation
               </span>
             </h2>
@@ -254,6 +255,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <Footer />
 
       <style jsx>{`
         @keyframes fade-in {

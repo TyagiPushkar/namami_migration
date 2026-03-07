@@ -113,6 +113,8 @@ export default function Navbar() {
             </div>
           </div>
 
+          <Link href="/careers" className="text-gray-900 font-medium">Careers</Link>
+          <Link href="/blogs" className="text-gray-900 font-medium">Blogs</Link>
           <Link href="/contact" className="text-gray-900 font-medium">Contact</Link>
         </div>
       )}
