@@ -9,7 +9,7 @@ export default function About() {
       <Navbar />
 
       {/* Hero About Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <section className="pt-10 pb-2 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-4">

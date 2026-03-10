@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 pt-20">
+      <section className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 pt-10">
         <div className="container mx-auto grid md:grid-cols-2 gap-12 px-6 py-20 items-center">
           
           <div className="space-y-6 animate-fade-in">

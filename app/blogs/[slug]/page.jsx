@@ -180,7 +180,7 @@ export default async function BlogDetail({ params }) {
       <Navbar />
 
       {/* Back Navigation */}
-      <div className="pt-32 pb-4 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <div className="pt-10 pb-4 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="container mx-auto px-6">
           <Link 
             href="/blogs" 
